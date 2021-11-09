@@ -7,9 +7,22 @@
 * OUTPUT PROGRAM :
 * ![img](https://github.com/raissaputra/praktikum-07/blob/main/screenshot/bil-terbesar.png)
 * PENJELASAN :
-* ```
-  XXX
-  ```
+  * untuk inisialisasi nilai yang diinput dari user dan menyimpannya di variabel x,y,z :
+  * ```
+    x = int(input('Masukan bilangan pertama : '))
+    y = int(input('Masukan bilangan kedua : '))
+    z = int(input('Masukan bilangan ketiga : '))
+    ```
+  * mengecek kondisi nilai yang diinputkan dan mencetak bilangan terbesar nya :
+  * ```
+    if x > y:
+        if x > z:
+            print('\nBilangan Terbesar = ', x)
+        elif y > z:
+            print('\nBilangan terbesar = ', y)
+        else:
+            print('\nBilangan terbesar = ', z)
+    ```
 
 ### Program Menampilkan Bilangan Terbesar dari 2 Buah Bilangan Inputan dengan statement if
 * FLOWCHART :
